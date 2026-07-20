@@ -1,0 +1,93 @@
+/* Makes sizing easier to control */
+* {
+  box-sizing: border-box;
+}
+
+/* Overall page style */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #1f2933;
+}
+
+/* Top section */
+header {
+  background-color: #17324d;
+  color: white;
+  padding: 25px 10%;
+  text-align: center;
+}
+
+/* Website title */
+header h1 {
+  margin: 0 0 15px;
+}
+
+/* Navigation links */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #7dd3fc;
+}
+
+/* Keeps page content centered */
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* Spacing between About and Projects */
+section {
+  margin-bottom: 55px;
+}
+
+/* Section headings */
+h2 {
+  color: #17324d;
+  font-size: 2rem;
+}
+
+/* Individual project cards */
+article {
+  background-color: white;
+  border-radius: 12px;
+  padding: 22px;
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Project name */
+article h3 {
+  margin-top: 0;
+  color: #2563eb;
+}
+
+/* Project link styled as a button */
+article a {
+  display: inline-block;
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article a:hover {
+  background-color: #1d4ed8;
+}
+
+/* Bottom of website */
+footer {
+  background-color: #17324d;
+  color: white;
+  text-align: center;
+  padding: 18px;
+}
